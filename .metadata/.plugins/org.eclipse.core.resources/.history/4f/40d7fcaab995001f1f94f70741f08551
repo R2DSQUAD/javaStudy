@@ -1,0 +1,26 @@
+package org.java.varEx;
+ 
+class A {
+	public int a;	//멤버 필드, 프로퍼티(속성) 인스턴스 멤버
+	public int b;	//멤버 필드, 프로퍼티(속성) 인스턴스 멤버
+	
+	//멤버 (필드, 프로퍼티(속성)) static 멤버
+	public static final int MAXNUIM = 1000;
+	
+	//멤버 메서드
+	
+	
+	//매개변수(인자) -> 지역변수
+	public void m1(int i) { //메서드
+		int c=10+i;		//지역벼너
+		System.out.println(c+" 지역변수");
+	}
+	
+
+
+public class VarEx3 {
+public static void main(String[] args) {
+System.out.println("변수의 종류(클래스 멤버 포함)");	
+newA();
+}
+}
