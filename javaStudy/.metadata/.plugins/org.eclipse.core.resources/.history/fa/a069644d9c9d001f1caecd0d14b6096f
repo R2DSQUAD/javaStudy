@@ -1,0 +1,8 @@
+package org.java.dao;
+
+public class MemberDao {
+	//싱글톤
+	private MemberDao() {
+		System.out.println("MemberDao => 싱글톤");
+	}
+}

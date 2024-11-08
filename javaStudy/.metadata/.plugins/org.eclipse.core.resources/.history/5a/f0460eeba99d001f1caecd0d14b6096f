@@ -1,0 +1,13 @@
+package org.java.innerClass;
+
+interface f1 {
+	int m1();
+}
+
+interface f2 {
+	int m2();
+}
+
+public class RamdaEx2 {
+	
+}

@@ -1,0 +1,11 @@
+package org.java.innerClass;
+
+abstract class ab1{
+	abstract void a() {
+		
+	}
+}
+
+public class AnonymouseEx2 {
+
+}

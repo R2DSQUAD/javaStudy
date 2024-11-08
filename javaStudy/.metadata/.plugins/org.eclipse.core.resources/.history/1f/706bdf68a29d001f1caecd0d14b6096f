@@ -1,0 +1,9 @@
+package org.java.innerClass;
+
+interface In1 {
+	void m1();
+}
+
+public class AnonymouseEx3 {
+
+}

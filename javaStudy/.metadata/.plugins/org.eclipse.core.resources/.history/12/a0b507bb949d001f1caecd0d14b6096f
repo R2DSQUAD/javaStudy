@@ -1,0 +1,17 @@
+package org.java.innerClass;
+
+public class InnerClassBaisc1 {
+	public int a;
+	public static int b;
+	
+	class InstanceClass{
+		int b;
+		void m1() {
+		}
+	}
+
+	public void instanceMethod() {
+		// TODO Auto-generated method stub
+		
+	}
+}

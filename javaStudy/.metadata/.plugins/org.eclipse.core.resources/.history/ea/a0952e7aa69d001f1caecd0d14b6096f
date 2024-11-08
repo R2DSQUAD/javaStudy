@@ -1,0 +1,13 @@
+package org.java.innerClass;
+
+interface In4 {
+	void m1() {
+		
+	}
+}
+
+public class RamdaEx1 {
+	public static void main(String[] args) {
+		
+	}
+}

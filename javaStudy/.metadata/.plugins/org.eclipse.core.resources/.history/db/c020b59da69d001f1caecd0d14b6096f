@@ -1,0 +1,20 @@
+package org.java.innerClass;
+
+interface In4 {
+	void m1();
+}
+
+class In4Sub implements In4 {
+
+	@Override
+	public void m1() {
+		System.out.println("m1() -> 오버라이드 In4");
+	}
+	
+}
+
+public class RamdaEx1 {
+	public static void main(String[] args) {
+		
+	}
+}

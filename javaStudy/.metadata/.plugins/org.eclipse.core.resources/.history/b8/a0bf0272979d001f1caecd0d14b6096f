@@ -1,0 +1,21 @@
+package org.java.innerClass;
+
+public class InnerClassBasic1 {
+	public int a;
+	public static int b;
+	
+	class InstanceClass {
+		
+	}
+	
+	class InstanceClass2 {
+		
+	}
+	
+	static class StaticClass{
+		int f;
+		void f1() {
+			System.out.println("f1()");
+		}
+	}
+}

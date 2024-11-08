@@ -1,0 +1,37 @@
+package org.java.innerClass;
+
+public class InnerClassBasic1 {
+	public int a;
+	public static final int MEMBER_MAX=1000;
+	
+	class InstanceClass{
+		int b;
+		void m1() {
+			System.out.println("m1()");
+		}
+	}
+	
+	class InstanceClass2{
+		int c;
+		void m2() {
+			System.out.println("m2()");
+		}
+	}
+	static class StaticClass{
+		int f;
+		void f1() {
+			System.out.println("f1()");
+		}
+	}
+	
+	static void instanceMethod(){
+		System.out.println("instanceMethod");
+	}
+	
+	public static void staticMethod() {
+		int a;
+		void m1() {
+			System.out.println("m1");
+		}
+	}
+}

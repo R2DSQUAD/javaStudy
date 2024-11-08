@@ -1,0 +1,24 @@
+package org.java.innerClass;
+
+interface f1 {
+	int m1();
+}
+
+interface f2 {
+	int m2(int num1, int num2);
+}
+
+public class RamdaEx2 {
+	public static void main(String[] args) {
+		new f1() {
+
+			@Override
+			public int m1() {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+			
+		};
+		
+	}
+}

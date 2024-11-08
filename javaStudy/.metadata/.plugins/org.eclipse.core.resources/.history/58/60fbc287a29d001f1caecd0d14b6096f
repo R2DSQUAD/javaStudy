@@ -1,0 +1,21 @@
+package org.java.innerClass;
+
+interface In1 {
+	void m1();
+}
+
+interface In2 extends In1 {
+	void m2();
+}
+
+interface In3 extends In2 {
+	void m3();
+}
+
+interface In4 extends In1, In2, In3 {
+	
+}
+
+public class AnonymouseEx3 {
+
+}

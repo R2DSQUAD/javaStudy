@@ -1,0 +1,19 @@
+package org.java.innerClass;
+
+class A{
+	void m1() {
+		System.out.println("m1");
+	}
+}
+
+class ASup extends A{
+
+	@Override
+	void m1() {
+		System.out.println("m1 -> 오버라이드");
+	}
+}
+
+public class AnonymousEx1 {
+	new ASub();
+}
