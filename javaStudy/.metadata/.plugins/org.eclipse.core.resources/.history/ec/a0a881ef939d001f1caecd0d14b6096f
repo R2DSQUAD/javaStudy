@@ -1,6 +1,0 @@
-package org.java.innerClass;
-
-public class InnerClassBaisc1 {
-	public int a;
-	publoc static int b;
-}

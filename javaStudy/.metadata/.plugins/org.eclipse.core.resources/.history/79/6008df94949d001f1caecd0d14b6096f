@@ -1,7 +1,0 @@
-package org.java.innerClass;
-
-public class InnerClassBasic1Class {
-	public static void main(String[] args) {
-		InnerClassBaisc1 inner1 = new innerl
-	}
-}
