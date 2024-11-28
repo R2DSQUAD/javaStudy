@@ -1,9 +1,0 @@
-package org.java.innerClass;
-
-interface f1 {
-	int m1();
-}
-
-public class RamdaEx2 {
-	
-}

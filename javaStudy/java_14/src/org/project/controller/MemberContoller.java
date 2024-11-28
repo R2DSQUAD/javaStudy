@@ -2,16 +2,17 @@ package org.project.controller;
 
 import java.sql.Connection;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Scanner;
 
 import org.project.dto.MemberDto;
 import org.project.service.MemberService;
+import org.project.service.Impl.MemberServiceImpl;
 import org.project.connect.DBConnect;
 
 public class MemberContoller {
 	public static void main(String[] args) {
 		System.out.println("MemberContoller");
-		
 		Connection conn = DBConnect.getConnection();
 		System.out.println(conn);
 		
@@ -41,7 +42,6 @@ public class MemberContoller {
 						}
 						
 					}else if(query.equals("select")){
-						
 					}else if(query.equals("update")){
 						
 					}else if(query.equals("delete")){
